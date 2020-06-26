@@ -117,3 +117,6 @@ node_modules/
 .next/
 
 .history/
+
+# collected static files
+staticfiles/
