@@ -2,6 +2,7 @@
 
 ## Open Git Pull Requests  
 
+[https://github.com/joseph-zabaleta/drf-api-deployment/pull/1](https://github.com/joseph-zabaleta/drf-api-deployment/pull/1)  
 
 ## Overview  
 
@@ -10,11 +11,11 @@ You will be deploying your application to a remote web host. Along the way youâ€
 These instructions will presume you are deploying to Digital Ocean but you are welcome to research other options and choose for yourself.
 
 ## Feature Tasks and Requirements  
-- [] Modify your application to store SECRET_KEY, ALLOWED_HOSTS, DEBUG and DATABASE information in .env file.
-- [] Add CORS capabilities to your app and whitelist allowed origins.
-- [] All the code changes will be in settings.py so check the demo code for CORS and Env related lines.
-- [] Create account with Digital Ocean (or other host of your choosing.)
-- [] Deploy application to Digital Ocean
+- [x] Modify your application to store SECRET_KEY, ALLOWED_HOSTS, DEBUG and DATABASE information in .env file.
+- [x] Add CORS capabilities to your app and whitelist allowed origins.
+- [x] All the code changes will be in settings.py so check the demo code for CORS and Env related lines.
+- [x] Create account with Digital Ocean (or other host of your choosing.)
+- [x] Deploy application to hosting serice
 
 ## Implementation Notes:  
 Useful Terminal Commands
@@ -24,7 +25,7 @@ Useful Terminal Commands
 - `docker-compose run web ./manage.py collectstatic`
 
 ## User Acceptance Tests  
-- [] Manually confirm API using Postman.
+- [x] Manually confirm API using Postman.
   - Remember to use deployed url for postman requests.
 
 ## Dependencies  
